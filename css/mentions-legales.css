@@ -1,0 +1,77 @@
+#page-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+body {
+    position: relative;
+    min-height: 100vh;
+}
+
+#page-footer {
+    position: absolute;
+    bottom: 0;
+}
+
+#page-title-text {
+    font-size: 96px;
+    margin: 0;
+}
+
+#page-title-escape {
+    font-weight: normal;
+}
+
+#page-subtitle-text {
+    font-size: 48px;
+    margin: 0;
+}
+
+#mentions-container {
+    display: flex;
+    justify-content: center;
+}
+
+#mentions {
+    width: 80vw;
+}
+
+#mentions p {
+    font-size: 18px;
+}
+
+#spacer {
+    height: 250px;
+}
+
+.titre-mention {
+    font-family: Roboto;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1000px) {
+    #page-title-text {
+        font-size: 48px;
+    }
+
+    #page-subtitle-text {
+        font-size: 36px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #page-title-text {
+        font-size: 36px;
+    }
+
+    #page-subtitle-text {
+        font-size: 24px;
+    }
+
+    #mentions p {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,266 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../media/fonts/Poppins-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Poppins;
+    src: url(../media/fonts/Poppins-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Monserrat;
+    src: url(../media/fonts/Montserrat.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../media/fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../media/fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: #fefae0;
+    min-height: 100vh;
+}
+
+h1 {
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 48px;
+}
+
+p {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+#page-header {
+    background-color: #606C38;
+    height: 125px;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: 125px;
+    padding-left: 20px;
+}
+
+#resp-page-title {
+    display: none;
+}
+
+#home-nav {
+    padding-left: 50px;
+}
+
+.home-nav-link {
+    font-family: Poppins;
+    font-size: 24px;
+    padding-left: 28px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fefae0;
+}
+
+.home-nav-link:first-child {
+    padding-left: 0;
+}
+
+.home-nav-active {
+    text-decoration: underline;
+}
+
+#page-footer {
+    margin-top: 50px;
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fefae0;
+    min-height: 0;
+}
+
+#page-footer-title {
+    margin: 0;
+}
+
+#footer-link{
+    color: #fefae0;
+    margin: 0;
+}
+
+#footer-link-clic {
+    text-decoration: underline;
+    text-decoration-color: #fefae0;
+    font-size: 16px;
+}
+
+.social-link {
+    height: 75px;
+    width: 75px;
+}
+
+#social-link-instagram {
+    height: 65px;
+    width: 65px;
+    padding-bottom: 5px;
+}
+
+#resp-menu-container {
+    display: none;
+}
+
+#flag-link {
+    position: absolute;
+    right: 25px;
+}
+
+#flag {
+    height: 50px;
+    width: 70px;
+}
+
+#destination-bouton-suivant {
+    position: absolute;
+    right: 50px;
+    background-color: #DDA15E;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+}
+
+.fleche {
+    vertical-align: middle;
+    height: 25px;
+    width: 25px;
+}
+
+#destination-bouton-suivant h1 {
+    font-size: 24px;
+}
+
+#destination-bouton-suivant-clic {
+    text-decoration: none;
+    color: black;
+}
+
+#destination-boutons-container {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #page-title {
+        display: none;
+    }
+
+    #page-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home-nav {
+        padding: 0;
+    }
+
+    .home-nav-link {
+        display: none;
+    }
+
+    #logo {
+        display: none;
+    }
+
+    #resp-page-title {
+        display: block;
+        text-decoration: none;
+        color: #fefae0;
+    }
+
+    #page-footer-title {
+        font-size: 36px;
+    }
+
+    #footer-link {
+        font-size: 18px;
+    }
+
+    #presentation-planisphere {
+        display: none;
+    }
+
+    #resp-menu-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    #resp-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 35px;
+        background-color: #DDA15E;
+        width: 275px;
+        border-radius: 25px;
+    }
+
+    .resp-menu-link {
+        text-decoration: none;
+        color: black;
+        font-family: Poppins;
+        font-weight: bold;
+    }
+
+    .resp-nav-active {
+        text-decoration: underline;
+    }
+
+    #flag {
+        height: 40px;
+        width: 50px;
+    }
+
+    #destination-boutons-container {
+        justify-content: center;
+        align-items: center;
+    }
+
+    #destination-bouton-suivant {
+        position: relative;
+        right: 0;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    #flag {
+        height: 15px;
+        width: 25px;
+    }
+
+    #resp-page-title h1 {
+        font-size: 24px;
+    }
+}

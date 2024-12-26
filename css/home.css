@@ -1,0 +1,277 @@
+#presentation {
+    display: flex;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page-title {
+    font-size: 96px;
+}
+
+#page-title-escape {
+    font-weight: normal;
+}
+
+#presentation-images {
+    margin-top: -20px;
+}
+
+#presentation-planisphere {
+    width: 800px;
+    height: 400px;
+}
+
+#presentation-logo {
+    width: 400px;
+    height: 400px;
+}
+
+#presentation-phrase-accroche {
+    margin-top: 0;
+    padding: 10px 20px;
+}
+
+.titre {
+    font-size: 48px;
+    text-align: center;
+    width: 90vw;
+}
+
+.paragraphe {
+    width: 90vw;
+    text-align: justify;
+}
+
+#presentation-texte {
+    padding-bottom: 80px;
+}
+
+.destination {
+    height: 500px;
+    width: 100vw;
+    display: flex;
+}
+
+.destination-numero {
+    font-size: 96px;
+    padding-left: 25px;
+    padding-right: 40px;
+    width: 45px;
+}
+
+.destination-image {
+    display: flex;
+    align-items: center;
+    float: left;
+}
+
+.destination-texte {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.destination-titre {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.destination-presentation {
+    text-align: justify;
+    margin-top: 25px;
+    padding: 0 43px;
+    font-weight: bold;
+}
+
+.icon-pin {
+    height: 50px;
+    width: 50px;
+    vertical-align: middle;
+}
+
+.destination-lien {
+    margin-top: 15px;
+    width: 400px;
+    height: 65px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-lien-clic {
+    text-decoration: none;
+}
+
+.lien-clair {
+    background-color: #FEFAE0;
+}
+
+.lien-sombre {
+    background-color: black;
+}
+
+.texte-clair {
+    color: #FEFAE0;
+}
+
+.texte-sombre {
+    color: black;
+}
+
+.destination-lien-texte {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.inclus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inclus-liste {
+    margin-left: 95px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+}
+
+#parc-kruger {
+    background-color: #BC6C25;
+}
+
+#cite-angkor {
+    background-color: #FEFAE0;
+}
+
+#sepik-river {
+    background-color: #283618;
+}
+
+#canyon-colca {
+    background-color: #FEFAE0;
+}
+
+#islande {
+    background-color: #1D2448;
+}
+
+@media screen and (max-width: 1400px) {
+    .destination {
+        height: 700px;
+    }
+
+    .destination-image img {
+        width: 450px;
+        height: 300px;
+    }
+
+    #presentation-images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    .destination {
+        flex-direction: column;
+        height: 1050px;
+    }
+
+    .destination-image {
+        flex-direction: column;
+    }
+
+    .destination-numero {
+        margin: 0;
+        padding: 0;
+    }
+
+    .destination-texte {
+        margin-top: 25px;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    
+    #resp-page-title h1 {
+        font-size: 24px;
+    }
+
+    .destination {
+        height: 850px;
+    }
+
+    .destination-image img {
+        width: 350px;
+        height: 225px;
+    }
+
+    .destination-numero {
+        font-size: 24px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .destination-titre {
+        font-size: 24px;
+    }
+
+    .icon-pin {
+        height: 20px;
+        width: 20px;
+    }
+
+    .destination-presentation {
+        font-size: 14px;
+    }
+
+    .destination-lien-texte {
+        font-size: 14px;
+    }
+
+    .destination-lien {
+        width: 80vw;
+    }
+
+    .titre {
+        font-size: 24px;
+    }
+
+    .paragraphe {
+        font-size: 14px;
+    }
+
+    .inclus {
+        margin-top: 20px;
+    }
+
+    #inclus-liste {
+        margin: 15vw;
+    }
+
+    #inclus-liste p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    #presentation-logo {
+        width: 275px;
+        height: 275px;
+    }
+
+    .destination {
+        height: 950px;
+    }
+}
