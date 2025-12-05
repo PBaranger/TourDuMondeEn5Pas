@@ -1,6 +1,8 @@
 # Tour Du Monde En 5 Pas
 
 ## Description
+Ce projet a été réalisé dans le cadre d'une SAE (Situation d'apprentissage et d'évaluation) durant ma première année de BUT Informatique.
+<br>
 Ce site web a été développé dans le cadre d'un projet durant la première année de BUT Informatique. Ce site web permet de découvrir le monde en 5 pas avec des suggestions pour rendre ce voyage plus agréable.
 <br>
 <br>
