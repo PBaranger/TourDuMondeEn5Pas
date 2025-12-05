@@ -5,4 +5,4 @@ Ce site web à été développé dans le cadre d'un projet durant la première a
 
 ## Exécution
 Télécharger les documents et dossier
-Exécution du site : Double cliquer sur le fichier 'index.html' `index.html`.
+Exécution du site : Double cliquer sur le fichier `index.html`.
